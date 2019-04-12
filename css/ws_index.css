@@ -1,0 +1,242 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+img {
+	border: 0;
+}
+
+
+/*第一部分 导航栏 开始*/
+
+.ws_right_ul li a {
+	float: left;
+	display: block;
+	color: #333;
+	font-size: 18px;
+	margin-top: 5px;
+}
+
+.ws_menu {
+	width: 100%;
+	height: 90px;
+	background-color: #ffffff;
+	position: fixed;
+	/*固定作用*/
+	top: 0px;
+	left: 0px;
+}
+
+.ws_nav {
+	width: 1100px;
+	height: 80px;
+	margin: 14px auto;
+}
+
+.ws_left {
+	float: left;
+}
+
+.ws_right {
+	float: right;
+}
+
+.ws_right .ws_right_ul li {
+	float: left;
+	margin: 17px;
+}
+
+.ws_right_ul a {
+	display: block;
+	color: #333;
+	font-size: 16px;
+	text-align: center;
+	line-height: 40px;
+}
+
+.ws_right_ul a:hover {
+	background-color: #DCDCDC;
+	width: 135%;
+	color: #000;
+	height: 40px;
+	font-weight: 600;
+	border-radius: 5px;
+}
+
+a {
+	background-color: transparent;
+}
+
+a:active,
+a:hover {
+	outline: 0;
+}
+
+
+/*第一部分结束*/
+
+
+/*第二部分 轮播图 开始*/
+
+.ws_center {
+	width: 100%;
+	height: 530px;
+}
+
+.ws_center .ws_center_inner {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.ws_center_img {
+	width: 100%;
+	height: 530px;
+}
+
+.ws_center_img img {
+	display: block;
+	margin: 0 auto;
+	padding-top: 90px;
+	width: 350px;
+	height: 350px;
+}
+
+.ws_center_ul {
+	width: 90px;
+	margin: 0 auto;
+	position: relative;
+	bottom: 60px;
+}
+
+.ws_center_ul li {
+	float: left;
+	margin-left: 10px;
+	width: 6px;
+	height: 6px;
+	border: 2px solid #fff;
+	border-radius: 6px;
+}
+
+.ws_active {
+	background-color: white;
+}
+
+
+/*第二部分结束*/
+
+
+/*第三部分 案例展示 开始*/
+
+.ws_anli {
+	margin: 0 auto;
+	padding-top: 0px;
+	width: 1140px;
+	height: 200px;
+}
+
+.ws_anli_img {
+	margin: 0 auto;
+	padding-top: 70px;
+	width: 202px;
+	height: 80px;
+}
+
+.ws_anli2 {
+	margin: 0 auto;
+	padding-top: 0px;
+	width: 1140px;
+	height: 600px;
+}
+
+.anli2_img1 img {
+	display: block;
+	width: 280px;
+	height: 280px;
+}
+
+.anli2_img1 {
+	float: left;
+}
+
+
+/*第三部分结束*/
+
+
+/*第四部分 底部 开始*/
+
+.ws_footed {
+	background-color: #323639;
+	background-size: cover;
+	width: 100%;
+	height: 150px;
+	padding: 2% 0;
+	text-align: center;
+}
+
+.ws_footer {
+	width: 1100px;
+	height: 130px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.f12 {
+	font-size: 6px;
+}
+
+.ws_footed_left {
+	width: 50%;
+}
+
+.ws_wenzi {
+	color: #ffffff;
+	float: left;
+	line-height: 26px;
+	padding: 0px;
+	list-style: none;
+}
+
+.ws_wenzi1 {
+	float: left;
+	color: #ffffff;
+	text-align: left;
+	line-height: 26px;
+	margin-left: 1%;
+	list-style: none;
+}
+
+.ws_footed_right {
+	width: 50%;
+	float: right;
+}
+
+.qgrx {
+	font-weight: 800;
+	font-size: 16px;
+}
+
+.dhhm {
+	font-weight: 800;
+	font-size: 22px;
+}
+
+.ws_footed_img {
+	float: right;
+	padding-right: 25px;
+	color: #ffffff;
+	list-style: none;
+}
+
+
+/*第四部分结束*/

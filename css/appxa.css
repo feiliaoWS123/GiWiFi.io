@@ -1,0 +1,42 @@
+@charset "utf-8";
+.sen_body {
+	overflow: hidden;/*溢出的内容隐藏起来*/
+}
+.sen_v2{
+	width: 100%;
+	height: 630px;
+	background-image: url(../img/bg.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.sen_body1 {
+	margin-top: 90px;
+	width: 100%;
+	height: 100px;
+	padding-top: 100px;
+	padding-left: 60px;
+	background-repeat: no-repeat;
+}
+.sen_body1 img{
+	width: 285px;
+	height: 65px;
+}
+.sen_body2,
+.sen_body3 {
+	margin-top: 20px;
+	float: left;
+	width: 80%;
+}
+
+.sen_body21 a {
+	float: left;
+	padding-left: 60px;
+}
+
+.sen_body4 {
+	width: 100%;
+	height: 100px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 60px;
+}
